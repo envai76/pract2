@@ -1,0 +1,73 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0","library(readr)"
+"0","library(dplyr)"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(tidyr)"
+"0","library(ggplot2)"
+"0","library(scales)"
+"2","
+Attaching package: ‘scales’
+
+"
+"2","The following object is masked from ‘package:readr’:
+
+    col_factor
+
+"
+"0","library(tidytext)"
+"0","library(textstem)"
+"2","Loading required package: koRpus.lang.en
+"
+"2","Loading required package: koRpus
+"
+"2","Loading required package: sylly
+"
+"2","For information on available language packages for 'koRpus', run
+
+  available.koRpus.lang()
+
+and see ?install.koRpus.lang()
+
+"
+"2","
+Attaching package: ‘koRpus’
+
+"
+"2","The following object is masked from ‘package:readr’:
+
+    tokenize
+
+"
+"0","library(clinspacy)"
+"2","Welcome to clinspacy.
+"
+"2","By default, this package will install and use miniconda and create a ""clinspacy"" conda environment.
+"
+"2","If you want to override this behavior, use clinspacy_init(miniconda = FALSE) and specify an alternative environment using reticulate::use_python() or reticulate::use_conda().
+"
+"0","library(topicmodels)"
+"0","library('reshape2')"
+"2","
+Attaching package: ‘reshape2’
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    smiths
+
+"
+"0","library(stringr)"
+"0",""
